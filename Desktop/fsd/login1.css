@@ -1,0 +1,39 @@
+html,body{
+    background-color:cornflowerblue;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+}
+div.flex-box{
+    display:grid;
+    grid-template-columns:auto auto;
+    background-color:blanchedalmond;
+    gap:5px;
+    width:50vh;
+    height:40%;
+    padding:20px;
+    border-radius:15px;
+}
+div.flex-item{
+    display:grid;
+    grid-template-columns:max-content;
+}
+div.field, div.input-field{
+    padding:25px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+div.field input{
+    width:100%;
+    border-radius:9px;
+}
+div.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2; 
+    gap:25px;
+}
+
